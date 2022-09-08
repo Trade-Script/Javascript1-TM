@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: ghostwhite;
+}
+
+.head-1 {
+  margin: 5px 20px;
+  color: darkslategrey;
+}
+
+.head-2 {
+  margin: 5px 20px;
+  color: darkslategrey;
+}
+
+.form-1 {
+  margin: 5px 20px;
+  font-size: 18px;
+}
+
+.btn-1 {
+  background-color: darkgrey;
+  padding: 5px;
+  margin: 5px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.img-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+div img {
+  width: 400px;
+  float: left;
+  margin: 10px;
+}

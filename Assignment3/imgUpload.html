@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Image Upload</title>
+
+    <script src="imgUpload.js"></script>
+    <link rel="stylesheet" href="CSS/imgUpload.css">
+
+</head>
+
+<body>
+    <h1 class="head-1">URL Upload Form</h1>
+    <form class="form-1" name="uploadForm" onsubmit="addImage(); return false">
+        Enter the image url: <input type="url" name="address" size="30">
+        <button type="submit" class="btn-1">Upload Image</button>
+    </form>
+
+    <h2 class="head-2">Uploaded Images</h2>
+    <div id="images" class="img-1">
+    </div>
+</body>
+
+</html>
