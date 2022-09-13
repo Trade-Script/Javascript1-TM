@@ -1,0 +1,85 @@
+* {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  background-image: url(./images/invest-back.jpeg);
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  border-radius: 8px;
+  min-height: 45vh;
+  min-width: 25vw;
+  background: rgb(166, 213, 228);
+}
+
+.container h1 {
+  margin: 10px;
+}
+
+.inpSection {
+  margin: 25px 30px;
+  text-align: left;
+}
+
+label {
+  font-weight: 650;
+}
+
+input {
+  display: flex;
+  color: rgba(51, 45, 45, 0.5);
+  font-weight: 500;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  height: 35px;
+  margin: 10px;
+  min-width: 90%;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  padding: 10px 30px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 650;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+
+.btn button:hover {
+  background-color: rgb(69, 128, 255);
+  transition: all 0.5s ease-in-out;
+}
+
+.result h3 {
+  position: relative;
+  margin: 20px 0;
+  font-size: 20px;
+  color: rgb(0, 91, 0);
+}
+
+.result h4 {
+  position: relative;
+  margin: 20px 0;
+  font-size: 20px;
+  color: rgb(182, 35, 35);
+}

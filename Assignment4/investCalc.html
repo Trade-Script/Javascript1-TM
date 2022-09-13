@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investment Calculator</title>
+
+  <script src="./investCalc.js"></script>
+  <link rel="stylesheet" href="./investCalc.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Investment Calculator</h1>
+    <div class="inpSection">
+
+      <div class="amt">
+        <label for="amount">Investment Amount: </label>
+        <input type="number" name="amount" id="amount" placeholder="Enter Investment Amount" />
+      </div>
+
+      <div class="rate">
+        <label for="rate">Interest Rate %: </label>
+        <input type="number" name="rate" id="rate" placeholder="Enter Interest Rate" />
+      </div>
+
+      <div class="duration">
+        <label for="duration">Duration (in months): </label>
+        <input type="number" name="duration" id="duration" placeholder="Enter Duration" />
+      </div>
+
+      <div class="btn">
+        <button onclick="Calculate()">Calculate</button>
+      </div>
+
+      <div class="result">
+        <h3 id="tiv"></h3>
+        <h4 id="err"></h4>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
